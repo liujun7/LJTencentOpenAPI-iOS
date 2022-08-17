@@ -1,0 +1,16 @@
+PODS:
+  - LJTencentOpenAPI-iOS (0.1.0)
+
+DEPENDENCIES:
+  - LJTencentOpenAPI-iOS (from `../`)
+
+EXTERNAL SOURCES:
+  LJTencentOpenAPI-iOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LJTencentOpenAPI-iOS: cf56b00528fb153426a9daaac43574e3bcfcee3b
+
+PODFILE CHECKSUM: 34c6a744cedcc76127ab22f213f9c9d4cbfa16b2
+
+COCOAPODS: 1.11.3

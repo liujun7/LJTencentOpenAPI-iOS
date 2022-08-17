@@ -1,0 +1,6 @@
+framework module LJTencentOpenAPI_iOS {
+  umbrella header "LJTencentOpenAPI-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

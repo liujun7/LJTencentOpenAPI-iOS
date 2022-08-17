@@ -1,0 +1,6 @@
+framework module Pods_LJTencentOpenAPI_iOS_Tests {
+  umbrella header "Pods-LJTencentOpenAPI-iOS_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

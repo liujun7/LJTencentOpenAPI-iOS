@@ -1,0 +1,22 @@
+{
+  "name": "LJTencentOpenAPI-iOS",
+  "version": "0.1.0",
+  "summary": "A short description of LJTencentOpenAPI-iOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liujun/LJTencentOpenAPI-iOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liujun": "18721338327@163.com"
+  },
+  "source": {
+    "git": "https://github.com/liujun/LJTencentOpenAPI-iOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "LJTencentOpenAPI-iOS/Classes/**/*"
+}
