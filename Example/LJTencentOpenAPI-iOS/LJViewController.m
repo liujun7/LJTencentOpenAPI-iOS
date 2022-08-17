@@ -7,6 +7,8 @@
 //
 
 #import "LJViewController.h"
+#import <TencentOpenAPI/TencentOAuth.h>
+#import <TencentOpenAPI/QQApiInterface.h>
 
 @interface LJViewController ()
 

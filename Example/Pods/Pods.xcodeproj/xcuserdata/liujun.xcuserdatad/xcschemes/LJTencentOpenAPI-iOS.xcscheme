@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5F4150E680B187158C33FCEF94A841F1"
-               BuildableName = "LJTencentOpenAPI_iOS.framework"
+               BuildableName = "LJTencentOpenAPI-iOS"
                BlueprintName = "LJTencentOpenAPI-iOS"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

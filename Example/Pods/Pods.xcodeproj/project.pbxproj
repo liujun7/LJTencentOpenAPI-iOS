@@ -6,27 +6,36 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		5F4150E680B187158C33FCEF94A841F1 /* LJTencentOpenAPI-iOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 55093CEE33288B3B7E3A1592924D5B84 /* Build configuration list for PBXAggregateTarget "LJTencentOpenAPI-iOS" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "LJTencentOpenAPI-iOS";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		19544BD15C36174F91EF2B9A469026C9 /* Pods-LJTencentOpenAPI-iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A71C7E278BCE3015F9A609A6E6D8CF0 /* Pods-LJTencentOpenAPI-iOS_Example-dummy.m */; };
-		1AB2F907AC9F188DC7B07A9E14282DAC /* LJTencentOpenAPI-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BB931D881C775BA8EF915D144DD479A /* LJTencentOpenAPI-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78035AFC041AC6773D081FBE374F6C1E /* Pods-LJTencentOpenAPI-iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0286BE286B6F034787943566838601A1 /* Pods-LJTencentOpenAPI-iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19544BD15C36174F91EF2B9A469026C9 /* Pods-LJTencentOpenAPI-iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F3FAEF01B83D4362410354F4F6E8EA /* Pods-LJTencentOpenAPI-iOS_Example-dummy.m */; };
+		78035AFC041AC6773D081FBE374F6C1E /* Pods-LJTencentOpenAPI-iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB243CB8811485A7A1638A94E1C09535 /* Pods-LJTencentOpenAPI-iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C205DB614CE68CB86D45DA8D6F82E2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		BBC49504246E55AAFA606320174A4DDF /* Pods-LJTencentOpenAPI-iOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7D63B6B9A264643041CC65004FABB21 /* Pods-LJTencentOpenAPI-iOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCEE8280E1211035CBA3EFAF68D37652 /* Pods-LJTencentOpenAPI-iOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C05D86997E57FC053167F957A89A7D /* Pods-LJTencentOpenAPI-iOS_Tests-dummy.m */; };
-		CBDAE2019DDBFEEBC7942E73C441F7C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D3B6F3C31B0AF1462EA2D95280C5E8EB /* LJTencentOpenAPI-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3ECCEE64B4A7B1A96F237EC332CE61 /* LJTencentOpenAPI-iOS-dummy.m */; };
 		F6EA6FA89E3B976E40992BDD3D487F0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5CEEEDEB34206BD33F351A15C4B80956 /* PBXContainerItemProxy */ = {
+		3AC824FCB56D7DA73C6468917F89BEB1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7C186BAFBF300F1A5B2B9AC5ABB258BB;
 			remoteInfo = "Pods-LJTencentOpenAPI-iOS_Example";
 		};
-		720A9A579A47F5A119041C5214481A05 /* PBXContainerItemProxy */ = {
+		B9CBFE700DCF3A89D1E3BD567336C1C3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -36,37 +45,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		023F9300D61EB6234BF24ABDD8DCE434 /* LJTencentOpenAPI-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LJTencentOpenAPI-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		0286BE286B6F034787943566838601A1 /* Pods-LJTencentOpenAPI-iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LJTencentOpenAPI-iOS_Example-umbrella.h"; sourceTree = "<group>"; };
-		0B47758691B36DAFCAC5FDA2DD10EDC9 /* LJTencentOpenAPI-iOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "LJTencentOpenAPI-iOS"; path = LJTencentOpenAPI_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BD88FE9CB83EECA19AF1DBF798FFBE0 /* Pods-LJTencentOpenAPI-iOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LJTencentOpenAPI-iOS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		082DDAE3051257FCD99298B840B98E6C /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = "LJTencentOpenAPI-iOS/TencentOpenAPI.framework"; sourceTree = "<group>"; };
+		18674DDC2118D0EDB8A4478B39F5FB46 /* Pods-LJTencentOpenAPI-iOS_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LJTencentOpenAPI-iOS_Example-resources.sh"; sourceTree = "<group>"; };
+		1921A16AC01E4DC2EE383B6F49353996 /* LJTencentOpenAPI-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "LJTencentOpenAPI-iOS.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		200F438CCD6AB427D9A89AC3CCF87555 /* LJTencentOpenAPI-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LJTencentOpenAPI-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		246FD9CAF0CB884EB422A694EBA6B07C /* Pods-LJTencentOpenAPI-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LJTencentOpenAPI-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		371A6691ECC0C04D6B09F4A18E4FF865 /* LJTencentOpenAPI-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LJTencentOpenAPI-iOS-prefix.pch"; sourceTree = "<group>"; };
-		3BEC5FE195DDC827284AD505D632D243 /* LJTencentOpenAPI-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "LJTencentOpenAPI-iOS.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		42C89D11AF8E5AF46C18B65CC85901F4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		4A71C7E278BCE3015F9A609A6E6D8CF0 /* Pods-LJTencentOpenAPI-iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LJTencentOpenAPI-iOS_Example-dummy.m"; sourceTree = "<group>"; };
+		267CFB7F1E4474089FFAA2FC0432076B /* Pods-LJTencentOpenAPI-iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LJTencentOpenAPI-iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		52C05D86997E57FC053167F957A89A7D /* Pods-LJTencentOpenAPI-iOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LJTencentOpenAPI-iOS_Tests-dummy.m"; sourceTree = "<group>"; };
-		56610DD517CF223321B69975389DDF91 /* Pods-LJTencentOpenAPI-iOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LJTencentOpenAPI-iOS_Example-Info.plist"; sourceTree = "<group>"; };
+		53599BB42F7F03C8FB4FA210EB218656 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		5C6A38F69086DFA89ABEECAAA1C1D630 /* Pods-LJTencentOpenAPI-iOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LJTencentOpenAPI-iOS_Tests.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		76DF5907A86E3B36B50FF71AE49752CC /* LJTencentOpenAPI-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LJTencentOpenAPI-iOS-Info.plist"; sourceTree = "<group>"; };
-		8A1ACCEE4030E0E702033291FD152635 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		8BB931D881C775BA8EF915D144DD479A /* LJTencentOpenAPI-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LJTencentOpenAPI-iOS-umbrella.h"; sourceTree = "<group>"; };
-		8E4B92D88BBAEB517AF06C3B5A982D32 /* Pods-LJTencentOpenAPI-iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LJTencentOpenAPI-iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8F3ECCEE64B4A7B1A96F237EC332CE61 /* LJTencentOpenAPI-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LJTencentOpenAPI-iOS-dummy.m"; sourceTree = "<group>"; };
+		853D88F0DEDB94A17E17365706E7F6BE /* Pods-LJTencentOpenAPI-iOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LJTencentOpenAPI-iOS_Example-Info.plist"; sourceTree = "<group>"; };
+		863FF4D720E58EF988A62010B3929C44 /* LJTencentOpenAPI-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LJTencentOpenAPI-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		89035B36D50DDCB64919B8778FB3655F /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TencentOpenApi_IOS_Bundle.bundle; path = "LJTencentOpenAPI-iOS/TencentOpenApi_IOS_Bundle.bundle"; sourceTree = "<group>"; };
+		911F7C5608A1F1764CDD629986F2FAD5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		91DD2587266A6189022DBE00C9845044 /* Pods-LJTencentOpenAPI-iOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LJTencentOpenAPI-iOS_Tests-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A5C6C9AE3F14BCD362D3096008951A28 /* Pods-LJTencentOpenAPI-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LJTencentOpenAPI-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD953284D7426EBFD51D45A246292CFE /* Pods-LJTencentOpenAPI-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LJTencentOpenAPI-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B7953F8D592D26D748F632AF8362B238 /* Pods-LJTencentOpenAPI-iOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LJTencentOpenAPI-iOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BA0B89A80BE33C272FEFE720BCE6CDA1 /* Pods-LJTencentOpenAPI-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LJTencentOpenAPI-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BD741C128E18F53102EBDFBAC10609E1 /* Pods-LJTencentOpenAPI-iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LJTencentOpenAPI-iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BF9F4D4C1FD980633693725DA3D7D249 /* LJTencentOpenAPI-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "LJTencentOpenAPI-iOS.modulemap"; sourceTree = "<group>"; };
-		C38F1407FC8D65F8EBC988F2C4E0C4B2 /* Pods-LJTencentOpenAPI-iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LJTencentOpenAPI-iOS_Example.modulemap"; sourceTree = "<group>"; };
+		BA235F2790ACA09FF0A52BA9E173357A /* Pods-LJTencentOpenAPI-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LJTencentOpenAPI-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C3B15A0B4C4891876E99254CE6C1A8CB /* Pods-LJTencentOpenAPI-iOS_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LJTencentOpenAPI-iOS_Tests"; path = Pods_LJTencentOpenAPI_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C79506921510B3EB38BB4FB82FD3A87D /* Pods-LJTencentOpenAPI-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LJTencentOpenAPI-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C86F604D052E4E9720EE1A42A22D2E04 /* Pods-LJTencentOpenAPI-iOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LJTencentOpenAPI-iOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D3F3FAEF01B83D4362410354F4F6E8EA /* Pods-LJTencentOpenAPI-iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LJTencentOpenAPI-iOS_Example-dummy.m"; sourceTree = "<group>"; };
+		D4D12210433FC739E29F9C0A56827453 /* Pods-LJTencentOpenAPI-iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LJTencentOpenAPI-iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D7D63B6B9A264643041CC65004FABB21 /* Pods-LJTencentOpenAPI-iOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LJTencentOpenAPI-iOS_Tests-umbrella.h"; sourceTree = "<group>"; };
-		EFE58A6FAF9B2508FB6436CE804B2D16 /* LJTencentOpenAPI-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LJTencentOpenAPI-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		DB243CB8811485A7A1638A94E1C09535 /* Pods-LJTencentOpenAPI-iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LJTencentOpenAPI-iOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		DB5E4834014497B125E8A29BDA1742A7 /* Pods-LJTencentOpenAPI-iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LJTencentOpenAPI-iOS_Example.modulemap"; sourceTree = "<group>"; };
 		F253566A57E01CA0758E6409C3ADF923 /* Pods-LJTencentOpenAPI-iOS_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LJTencentOpenAPI-iOS_Example"; path = Pods_LJTencentOpenAPI_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -87,54 +92,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9E9BDF932C2A35D479EE64C50B60095C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CBDAE2019DDBFEEBC7942E73C441F7C6 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		22B47DE5AB8DF9EB4D7BB2B9AE71DEB6 /* Pods-LJTencentOpenAPI-iOS_Example */ = {
-			isa = PBXGroup;
-			children = (
-				C38F1407FC8D65F8EBC988F2C4E0C4B2 /* Pods-LJTencentOpenAPI-iOS_Example.modulemap */,
-				BD741C128E18F53102EBDFBAC10609E1 /* Pods-LJTencentOpenAPI-iOS_Example-acknowledgements.markdown */,
-				8E4B92D88BBAEB517AF06C3B5A982D32 /* Pods-LJTencentOpenAPI-iOS_Example-acknowledgements.plist */,
-				4A71C7E278BCE3015F9A609A6E6D8CF0 /* Pods-LJTencentOpenAPI-iOS_Example-dummy.m */,
-				1BD88FE9CB83EECA19AF1DBF798FFBE0 /* Pods-LJTencentOpenAPI-iOS_Example-frameworks.sh */,
-				56610DD517CF223321B69975389DDF91 /* Pods-LJTencentOpenAPI-iOS_Example-Info.plist */,
-				0286BE286B6F034787943566838601A1 /* Pods-LJTencentOpenAPI-iOS_Example-umbrella.h */,
-				A5C6C9AE3F14BCD362D3096008951A28 /* Pods-LJTencentOpenAPI-iOS_Example.debug.xcconfig */,
-				C79506921510B3EB38BB4FB82FD3A87D /* Pods-LJTencentOpenAPI-iOS_Example.release.xcconfig */,
-			);
-			name = "Pods-LJTencentOpenAPI-iOS_Example";
-			path = "Target Support Files/Pods-LJTencentOpenAPI-iOS_Example";
-			sourceTree = "<group>";
-		};
-		2561CDC75BC4B9AE245FBA2A5E3A02CE /* LJTencentOpenAPI-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				78C4DFB7F37ADD1C8F08ADD66B7533A6 /* Pod */,
-				B1F8EC9C4A0E99AE3C2FCAC7E2795E53 /* Support Files */,
-			);
-			name = "LJTencentOpenAPI-iOS";
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		3CC21D10CAED1E82986384B66B3D6DD8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0B47758691B36DAFCAC5FDA2DD10EDC9 /* LJTencentOpenAPI-iOS */,
-				F253566A57E01CA0758E6409C3ADF923 /* Pods-LJTencentOpenAPI-iOS_Example */,
-				C3B15A0B4C4891876E99254CE6C1A8CB /* Pods-LJTencentOpenAPI-iOS_Tests */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,55 +103,57 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		78C4DFB7F37ADD1C8F08ADD66B7533A6 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				42C89D11AF8E5AF46C18B65CC85901F4 /* LICENSE */,
-				3BEC5FE195DDC827284AD505D632D243 /* LJTencentOpenAPI-iOS.podspec */,
-				8A1ACCEE4030E0E702033291FD152635 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		7CFA1583EFAA38D9C1F86911ACBEA5ED /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2561CDC75BC4B9AE245FBA2A5E3A02CE /* LJTencentOpenAPI-iOS */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		9466F41E82ED851D1B6CBBDF75D2BAE0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				22B47DE5AB8DF9EB4D7BB2B9AE71DEB6 /* Pods-LJTencentOpenAPI-iOS_Example */,
+				E285769F076474546DC8FE4253368EBD /* Pods-LJTencentOpenAPI-iOS_Example */,
 				DEA5A8B94FCF847D118E1E3435A16792 /* Pods-LJTencentOpenAPI-iOS_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B1F8EC9C4A0E99AE3C2FCAC7E2795E53 /* Support Files */ = {
+		A4246B7B0E77984CCBF778A54F9D8FC6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF9F4D4C1FD980633693725DA3D7D249 /* LJTencentOpenAPI-iOS.modulemap */,
-				8F3ECCEE64B4A7B1A96F237EC332CE61 /* LJTencentOpenAPI-iOS-dummy.m */,
-				76DF5907A86E3B36B50FF71AE49752CC /* LJTencentOpenAPI-iOS-Info.plist */,
-				371A6691ECC0C04D6B09F4A18E4FF865 /* LJTencentOpenAPI-iOS-prefix.pch */,
-				8BB931D881C775BA8EF915D144DD479A /* LJTencentOpenAPI-iOS-umbrella.h */,
-				EFE58A6FAF9B2508FB6436CE804B2D16 /* LJTencentOpenAPI-iOS.debug.xcconfig */,
-				023F9300D61EB6234BF24ABDD8DCE434 /* LJTencentOpenAPI-iOS.release.xcconfig */,
+				F253566A57E01CA0758E6409C3ADF923 /* Pods-LJTencentOpenAPI-iOS_Example */,
+				C3B15A0B4C4891876E99254CE6C1A8CB /* Pods-LJTencentOpenAPI-iOS_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEFD92F9DF022121B7CBBA751F28255C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4D9E2C8C5848D8F7D212CFA486B8563 /* LJTencentOpenAPI-iOS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B8C3B7A9780F3EF4989FD1127E6C8D40 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				200F438CCD6AB427D9A89AC3CCF87555 /* LJTencentOpenAPI-iOS.debug.xcconfig */,
+				863FF4D720E58EF988A62010B3929C44 /* LJTencentOpenAPI-iOS.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/LJTencentOpenAPI-iOS";
+			sourceTree = "<group>";
+		};
+		B8D6146B54A408F300505162621F13EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				082DDAE3051257FCD99298B840B98E6C /* TencentOpenAPI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				7CFA1583EFAA38D9C1F86911ACBEA5ED /* Development Pods */,
+				AEFD92F9DF022121B7CBBA751F28255C /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				3CC21D10CAED1E82986384B66B3D6DD8 /* Products */,
+				A4246B7B0E77984CCBF778A54F9D8FC6 /* Products */,
 				9466F41E82ED851D1B6CBBDF75D2BAE0 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -202,6 +164,28 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4D9E2C8C5848D8F7D212CFA486B8563 /* LJTencentOpenAPI-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				89035B36D50DDCB64919B8778FB3655F /* TencentOpenApi_IOS_Bundle.bundle */,
+				B8D6146B54A408F300505162621F13EA /* Frameworks */,
+				DC5011CF56ADE56EC42423766A93681B /* Pod */,
+				B8C3B7A9780F3EF4989FD1127E6C8D40 /* Support Files */,
+			);
+			name = "LJTencentOpenAPI-iOS";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		DC5011CF56ADE56EC42423766A93681B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				53599BB42F7F03C8FB4FA210EB218656 /* LICENSE */,
+				1921A16AC01E4DC2EE383B6F49353996 /* LJTencentOpenAPI-iOS.podspec */,
+				911F7C5608A1F1764CDD629986F2FAD5 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		DEA5A8B94FCF847D118E1E3435A16792 /* Pods-LJTencentOpenAPI-iOS_Tests */ = {
@@ -220,6 +204,23 @@
 			path = "Target Support Files/Pods-LJTencentOpenAPI-iOS_Tests";
 			sourceTree = "<group>";
 		};
+		E285769F076474546DC8FE4253368EBD /* Pods-LJTencentOpenAPI-iOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DB5E4834014497B125E8A29BDA1742A7 /* Pods-LJTencentOpenAPI-iOS_Example.modulemap */,
+				267CFB7F1E4474089FFAA2FC0432076B /* Pods-LJTencentOpenAPI-iOS_Example-acknowledgements.markdown */,
+				D4D12210433FC739E29F9C0A56827453 /* Pods-LJTencentOpenAPI-iOS_Example-acknowledgements.plist */,
+				D3F3FAEF01B83D4362410354F4F6E8EA /* Pods-LJTencentOpenAPI-iOS_Example-dummy.m */,
+				853D88F0DEDB94A17E17365706E7F6BE /* Pods-LJTencentOpenAPI-iOS_Example-Info.plist */,
+				18674DDC2118D0EDB8A4478B39F5FB46 /* Pods-LJTencentOpenAPI-iOS_Example-resources.sh */,
+				DB243CB8811485A7A1638A94E1C09535 /* Pods-LJTencentOpenAPI-iOS_Example-umbrella.h */,
+				AD953284D7426EBFD51D45A246292CFE /* Pods-LJTencentOpenAPI-iOS_Example.debug.xcconfig */,
+				BA235F2790ACA09FF0A52BA9E173357A /* Pods-LJTencentOpenAPI-iOS_Example.release.xcconfig */,
+			);
+			name = "Pods-LJTencentOpenAPI-iOS_Example";
+			path = "Target Support Files/Pods-LJTencentOpenAPI-iOS_Example";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -228,14 +229,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				78035AFC041AC6773D081FBE374F6C1E /* Pods-LJTencentOpenAPI-iOS_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A66F6E81A00C03C188E4B704F365D7FB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1AB2F907AC9F188DC7B07A9E14282DAC /* LJTencentOpenAPI-iOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,29 +255,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				DAF488ADC9421A46A9C80E171679E77D /* PBXTargetDependency */,
+				F129D3A18D7D9853EB36546A5F7789C8 /* PBXTargetDependency */,
 			);
 			name = "Pods-LJTencentOpenAPI-iOS_Tests";
 			productName = Pods_LJTencentOpenAPI_iOS_Tests;
 			productReference = C3B15A0B4C4891876E99254CE6C1A8CB /* Pods-LJTencentOpenAPI-iOS_Tests */;
-			productType = "com.apple.product-type.framework";
-		};
-		5F4150E680B187158C33FCEF94A841F1 /* LJTencentOpenAPI-iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1D462676D4DE8E23D21E9BB98BAEC274 /* Build configuration list for PBXNativeTarget "LJTencentOpenAPI-iOS" */;
-			buildPhases = (
-				A66F6E81A00C03C188E4B704F365D7FB /* Headers */,
-				98744166B39C46113A55DDBBCA55EEB3 /* Sources */,
-				9E9BDF932C2A35D479EE64C50B60095C /* Frameworks */,
-				514700F2DDA1F4BD6F8F24A08E0FDB82 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "LJTencentOpenAPI-iOS";
-			productName = LJTencentOpenAPI_iOS;
-			productReference = 0B47758691B36DAFCAC5FDA2DD10EDC9 /* LJTencentOpenAPI-iOS */;
 			productType = "com.apple.product-type.framework";
 		};
 		7C186BAFBF300F1A5B2B9AC5ABB258BB /* Pods-LJTencentOpenAPI-iOS_Example */ = {
@@ -299,7 +274,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				7E7CA84DA98DC2D7750689938FD3ED75 /* PBXTargetDependency */,
+				26788BEB971D3D1C4F6F63C022E4383B /* PBXTargetDependency */,
 			);
 			name = "Pods-LJTencentOpenAPI-iOS_Example";
 			productName = Pods_LJTencentOpenAPI_iOS_Example;
@@ -324,7 +299,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 3CC21D10CAED1E82986384B66B3D6DD8 /* Products */;
+			productRefGroup = A4246B7B0E77984CCBF778A54F9D8FC6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -336,13 +311,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		514700F2DDA1F4BD6F8F24A08E0FDB82 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		808AE499EFD294A898058077AB4DFE73 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -368,14 +336,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98744166B39C46113A55DDBBCA55EEB3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D3B6F3C31B0AF1462EA2D95280C5E8EB /* LJTencentOpenAPI-iOS-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A7FEE82DFA1A56D2C028C4D755ADAD4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -387,87 +347,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7E7CA84DA98DC2D7750689938FD3ED75 /* PBXTargetDependency */ = {
+		26788BEB971D3D1C4F6F63C022E4383B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "LJTencentOpenAPI-iOS";
 			target = 5F4150E680B187158C33FCEF94A841F1 /* LJTencentOpenAPI-iOS */;
-			targetProxy = 720A9A579A47F5A119041C5214481A05 /* PBXContainerItemProxy */;
+			targetProxy = B9CBFE700DCF3A89D1E3BD567336C1C3 /* PBXContainerItemProxy */;
 		};
-		DAF488ADC9421A46A9C80E171679E77D /* PBXTargetDependency */ = {
+		F129D3A18D7D9853EB36546A5F7789C8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LJTencentOpenAPI-iOS_Example";
 			target = 7C186BAFBF300F1A5B2B9AC5ABB258BB /* Pods-LJTencentOpenAPI-iOS_Example */;
-			targetProxy = 5CEEEDEB34206BD33F351A15C4B80956 /* PBXContainerItemProxy */;
+			targetProxy = 3AC824FCB56D7DA73C6468917F89BEB1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		090ACE66F325BE8B6982B12E1E5E8BA7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFE58A6FAF9B2508FB6436CE804B2D16 /* LJTencentOpenAPI-iOS.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LJTencentOpenAPI-iOS/LJTencentOpenAPI-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LJTencentOpenAPI-iOS/LJTencentOpenAPI-iOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LJTencentOpenAPI-iOS/LJTencentOpenAPI-iOS.modulemap";
-				PRODUCT_MODULE_NAME = LJTencentOpenAPI_iOS;
-				PRODUCT_NAME = LJTencentOpenAPI_iOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		16BE30FD131454ECC33EAD92B11295C2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 023F9300D61EB6234BF24ABDD8DCE434 /* LJTencentOpenAPI-iOS.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LJTencentOpenAPI-iOS/LJTencentOpenAPI-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LJTencentOpenAPI-iOS/LJTencentOpenAPI-iOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LJTencentOpenAPI-iOS/LJTencentOpenAPI-iOS.modulemap";
-				PRODUCT_MODULE_NAME = LJTencentOpenAPI_iOS;
-				PRODUCT_NAME = LJTencentOpenAPI_iOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		33268989DF43BABD0DB2AD97082A4FD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5C6C9AE3F14BCD362D3096008951A28 /* Pods-LJTencentOpenAPI-iOS_Example.debug.xcconfig */;
+			baseConfigurationReference = AD953284D7426EBFD51D45A246292CFE /* Pods-LJTencentOpenAPI-iOS_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -531,6 +428,21 @@
 			};
 			name = Debug;
 		};
+		526A9A56DCD311DD9255533622E3681C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 863FF4D720E58EF988A62010B3929C44 /* LJTencentOpenAPI-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -586,11 +498,26 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		C2612A05A7C9CAF731EAFC0EDA7541C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 200F438CCD6AB427D9A89AC3CCF87555 /* LJTencentOpenAPI-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -694,7 +621,7 @@
 		};
 		ECD9C11161BAD3918420467DE8DECA61 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C79506921510B3EB38BB4FB82FD3A87D /* Pods-LJTencentOpenAPI-iOS_Example.release.xcconfig */;
+			baseConfigurationReference = BA235F2790ACA09FF0A52BA9E173357A /* Pods-LJTencentOpenAPI-iOS_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -729,15 +656,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D462676D4DE8E23D21E9BB98BAEC274 /* Build configuration list for PBXNativeTarget "LJTencentOpenAPI-iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				090ACE66F325BE8B6982B12E1E5E8BA7 /* Debug */,
-				16BE30FD131454ECC33EAD92B11295C2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		30233933A553168EB2DDD2B39B086527 /* Build configuration list for PBXNativeTarget "Pods-LJTencentOpenAPI-iOS_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -752,6 +670,15 @@
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
 				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55093CEE33288B3B7E3A1592924D5B84 /* Build configuration list for PBXAggregateTarget "LJTencentOpenAPI-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2612A05A7C9CAF731EAFC0EDA7541C6 /* Debug */,
+				526A9A56DCD311DD9255533622E3681C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
